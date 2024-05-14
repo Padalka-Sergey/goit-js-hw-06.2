@@ -1,0 +1,2 @@
+import"./assets/modulepreload-polyfill-3cfb730f.js";/* empty css                      */let e=0;const n=document.querySelector("#value"),c=document.querySelector('[data-action="decrement"]');c.addEventListener("click",o);function o(){e-=1,t()}const r=document.querySelector('[data-action="increment"]');r.addEventListener("click",i);function i(){e+=1,t()}function t(){n.textContent=e}
+//# sourceMappingURL=commonHelpers5.js.map
