@@ -1,0 +1,2 @@
+import"./assets/modulepreload-polyfill-3cfb730f.js";/* empty css                      */const t=document.querySelector("#validation-input"),e=Number(t.dataset.length);t.addEventListener("blur",n);function n(s){if(s.target.value.length===e){t.classList.add("valid");return}t.classList.add("invalid")}t.addEventListener("focus",a);function a(){if(t.classList.contains("valid")){t.classList.remove("valid");return}if(t.classList.contains("invalid")){t.classList.remove("invalid");return}}
+//# sourceMappingURL=commonHelpers7.js.map
