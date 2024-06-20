@@ -24,7 +24,8 @@
         font: inherit;
       }
     </style>
-    <script type="module" crossorigin src="/vanilla-app-template/assets/modulepreload-polyfill-3cfb730f.js"></script>
+    <script type="module" crossorigin src="/vanilla-app-template/commonHelpers9.js"></script>
+    <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/modulepreload-polyfill-3cfb730f.js">
     <link rel="stylesheet" href="/vanilla-app-template/assets/common-bc6c3c79.css">
   </head>
   <body>
@@ -33,11 +34,11 @@
     <form class="login-form">
       <label>
         Email
-        <input type="email" name="email" />
+        <input type="email" name="email" autocomplete="on" />
       </label>
       <label>
         Password
-        <input type="password" name="password" />
+        <input type="password" name="password" autocomplete="on" />
       </label>
       <button type="submit">Login</button>
     </form>
