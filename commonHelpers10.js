@@ -1,0 +1,2 @@
+import"./assets/modulepreload-polyfill-3cfb730f.js";/* empty css                      */const t=document.querySelector(".change-color"),e=document.querySelector("body"),n=document.querySelector(".color");t.addEventListener("click",r);function r(){n.textContent=o(),e.style.backgroundColor=o()}function o(){return`#${Math.floor(Math.random()*16777215).toString(16).padStart(6,0)}`}
+//# sourceMappingURL=commonHelpers10.js.map
